@@ -1,0 +1,65 @@
+# Historia sesji R
+.Rhistory
+.Rapp.history
+
+# Pliki sesji
+.RData
+.RDataTmp
+
+# Pliki użytkownika
+.Ruserdata
+
+# Przykładowe dane tworzące pakiet
+/*_cache/
+/cache/
+
+# Pliki tymczasowe stworzone przez R markdown
+*.utf8.md
+*.knit.md
+
+# Katalogi projektowe RStudio
+.Rproj.user/
+
+# Pliki projektu
+*.Rproj
+
+# Produkcja pakietów
+*.tar.gz
+
+# Katalogi i pliki środowiska
+.Renviron
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Katalogi i pliki knitr oraz R markdown
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+
+# Pliki renv
+renv/library/
+
+# Pliki tymczasowe
+*.o
+*.so
+*.dll
+
+# Katalogi wyjściowe
+/output/
+/figures/
+
+# Pliki projektowe IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System operacyjny
+.DS_Store
+Thumbs.db
