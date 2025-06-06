@@ -86,15 +86,6 @@ par(mfrow=c(1, 1), mar=c(5, 4, 4, 8), xpd=TRUE)
 # Pobieramy dane o cenach artykułów spożywczych
 food_prices <- Eggs[order(Eggs$Week), c("Week", "Egg.Pr", "Beef.Pr", "Chicken.Pr", "Pork.Pr", "Cereal.Pr")]
 
-# Używamy matplot do porównania cen artykułów spożywczych
-# mdf <- as.matrix(food_prices[, -1])
-# colnames(mdf) <- c("Jajka", "Wołowina", "Kurczak", "Wieprzowina", "Zboża")
-#
-# matplot(food_prices$Week, mdf, type="l", col=c("red", "blue", "green", "purple", "orange"),
-#         lty=1, main="Porównanie cen artykułów spożywczych w czasie",
-#         xlab="Tydzień", ylab="Cena")
-# legend("topright", legend=colnames(mdf), col=c("red", "blue", "green", "purple", "orange"),
-#        lty=1, cex=0.8)
 library(plotly)
 
 mdf <- as.matrix(food_prices[, -1])
